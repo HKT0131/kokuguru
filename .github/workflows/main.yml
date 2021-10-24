@@ -15,8 +15,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "lint"
-  lint:
+  # This workflow contains a single job called "build"
+  build:
     # The type of runner that the job will run on (実行環境)
     runs-on: ubuntu-latest
 
@@ -25,9 +25,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Setup Java JDK
+        uses: actions/setup-java@v2.3.1
+        with:
+          # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
+          java-version: 11
+          # Java distribution. See the list of supported distributions in README file
+          distribution: 'adopt'
+      
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: gradle build
+        run: ./graldew build
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.27">
+<file name="/Users/hkt/git/kokuguru/src/main/java/beans/Review.java">
+<error line="1" severity="error" message="package-info.javaファイルがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="1" severity="error" message="ファイルが新しい行で終了していません。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="4" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="5" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="7" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="7" column="19" severity="error" message="パラメータ shopId は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="7" column="23" severity="error" message="&apos;shopId&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="7" column="29" severity="error" message="&apos;,&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="7" column="30" severity="error" message="パラメータ opinion は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="7" column="37" severity="error" message="&apos;opinion&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="12" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="12" column="20" severity="error" message="&apos;{&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" column="20" severity="error" message="&apos;{&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" column="21" severity="error" message="&apos;}&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="14" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="14" column="5" severity="error" message="クラス &apos;Review&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;setShopId&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Review&apos; を final にするか、メソッド &apos;setShopId&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="14" column="27" severity="error" message="パラメータ shopId は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="14" column="31" severity="error" message="&apos;shopId&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="18" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="5" severity="error" message="クラス &apos;Review&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;setOpinion&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Review&apos; を final にするか、メソッド &apos;setOpinion&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="18" column="28" severity="error" message="パラメータ opinion は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="18" column="35" severity="error" message="&apos;opinion&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="22" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="5" severity="error" message="クラス &apos;Review&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;getShopId&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Review&apos; を final にするか、メソッド &apos;getShopId&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="26" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="5" severity="error" message="クラス &apos;Review&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;getOpinion&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Review&apos; を final にするか、メソッド &apos;getOpinion&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/beans/Shop.java">
+<error line="1" severity="error" message="ファイルが新しい行で終了していません。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="4" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="5" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="6" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="7" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="9" column="17" severity="error" message="パラメータ id は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="9" column="21" severity="error" message="&apos;id&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="9" column="23" severity="error" message="&apos;,&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="9" column="24" severity="error" message="パラメータ shopName は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="9" column="31" severity="error" message="&apos;shopName&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="9" column="39" severity="error" message="&apos;,&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="9" column="40" severity="error" message="パラメータ reson は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="9" column="52" severity="error" message="&apos;,&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="9" column="53" severity="error" message="パラメータ link は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="9" column="60" severity="error" message="&apos;link&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="16" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="16" column="18" severity="error" message="&apos;{&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="18" severity="error" message="&apos;{&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="19" severity="error" message="&apos;}&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;setId&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;setId&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="18" column="23" severity="error" message="パラメータ id は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="18" column="27" severity="error" message="&apos;id&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="22" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;setShopName&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;setShopName&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="29" severity="error" message="パラメータ shopName は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="22" column="36" severity="error" message="&apos;shopName&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="26" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;setReason&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;setReason&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="26" column="27" severity="error" message="パラメータ reason は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="26" column="34" severity="error" message="&apos;reason&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="30" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="30" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;setLink&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;setLink&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="30" column="25" severity="error" message="パラメータ link は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="30" column="32" severity="error" message="&apos;link&apos; がフィールドを隠しています。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="34" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="34" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;getId&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;getId&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="38" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;getShopName&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;getShopName&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="42" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="42" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;getReason&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;getReason&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="46" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="46" column="5" severity="error" message="クラス &apos;Shop&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;getLink&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Shop&apos; を final にするか、メソッド &apos;getLink&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="49" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/control/ReviewManager.java">
+<error line="1" severity="error" message="package-info.javaファイルがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="15" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="23" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="23" column="5" severity="error" message="クラス &apos;ReviewManager&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;registReview&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ReviewManager&apos; を final にするか、メソッド &apos;registReview&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="30" severity="error" message="パラメータ review は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="43" column="5" severity="error" message="クラス &apos;ReviewManager&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;showReview&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ReviewManager&apos; を final にするか、メソッド &apos;showReview&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/control/ShopManager.java">
+<error line="15" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="23" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="23" column="5" severity="error" message="クラス &apos;ShopManager&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;registShop&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopManager&apos; を final にするか、メソッド &apos;registShop&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="28" severity="error" message="パラメータ shop は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="43" column="5" severity="error" message="クラス &apos;ShopManager&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;showShop&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopManager&apos; を final にするか、メソッド &apos;showShop&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/dao/ReviewDAO.java">
+<error line="1" severity="error" message="package-info.javaファイルがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="11" column="8" severity="error" message="使用されないインポートです - java.sql.Statement。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="21" severity="error" message="行が 80 文字を超えています （176 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="21" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="27" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="30" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="33" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="37" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="37" column="5" severity="error" message="クラス &apos;ReviewDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;createConnection&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ReviewDAO&apos; を final にするか、メソッド &apos;createConnection&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" severity="error" message="行が 80 文字を超えています （90 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="52" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="52" column="5" severity="error" message="クラス &apos;ReviewDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;closeConnection&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ReviewDAO&apos; を final にするか、メソッド &apos;closeConnection&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="33" severity="error" message="パラメータ con は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="61" column="5" severity="error" message="クラス &apos;ReviewDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;registReview&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ReviewDAO&apos; を final にするか、メソッド &apos;registReview&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="61" column="30" severity="error" message="パラメータ review は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="45" severity="error" message="パラメータ connection は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="80" column="19" severity="error" message="少なくとも文が1つは必要です。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="85" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="85" column="5" severity="error" message="クラス &apos;ReviewDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;showReview&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ReviewDAO&apos; を final にするか、メソッド &apos;showReview&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="85" column="36" severity="error" message="パラメータ connection は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="92" column="13" severity="error" message="&apos;while&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="96" column="1" severity="error" message="ファイルにタブ文字が含まれています（ここが最初の出現箇所です）。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="108" column="19" severity="error" message="少なくとも文が1つは必要です。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/dao/ShopDAO.java">
+<error line="21" severity="error" message="行が 80 文字を超えています （176 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="21" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="27" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="30" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="33" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="19" severity="error" message="&apos;static&apos; 修飾子が JLS 提案の順序に沿いません。" source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="37" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="37" column="5" severity="error" message="クラス &apos;ShopDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;createConnection&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopDAO&apos; を final にするか、メソッド &apos;createConnection&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" severity="error" message="行が 80 文字を超えています （90 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="52" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="52" column="5" severity="error" message="クラス &apos;ShopDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;closeConnection&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopDAO&apos; を final にするか、メソッド &apos;closeConnection&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="33" severity="error" message="パラメータ con は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="61" column="5" severity="error" message="クラス &apos;ShopDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;registShop&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopDAO&apos; を final にするか、メソッド &apos;registShop&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="61" column="28" severity="error" message="パラメータ shop は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="39" severity="error" message="パラメータ connection は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="66" severity="error" message="行が 80 文字を超えています （101 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="74" column="28" severity="error" message="&apos;3&apos; はマジックナンバーです。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="82" column="19" severity="error" message="少なくとも文が1つは必要です。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="87" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="87" column="5" severity="error" message="クラス &apos;ShopDAO&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;showShop&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopDAO&apos; を final にするか、メソッド &apos;showShop&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="87" column="32" severity="error" message="パラメータ connection は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="98" column="13" severity="error" message="&apos;while&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="99" column="1" severity="error" message="ファイルにタブ文字が含まれています（ここが最初の出現箇所です）。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="118" column="19" severity="error" message="少なくとも文が1つは必要です。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/servlet/Login.java">
+<error line="1" severity="error" message="package-info.javaファイルがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="5" column="8" severity="error" message="使用されないインポートです - java.util.ArrayList。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="6" column="8" severity="error" message="使用されないインポートです - java.util.List。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="15" severity="error" message="&apos;.*&apos; 形式のインポートの使用は避けるべきです - javax.servlet.http.*。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="28" severity="error" message="行が 80 文字を超えています （118 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="28" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="28" column="5" severity="error" message="クラス &apos;Login&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;doGet&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Login&apos; を final にするか、メソッド &apos;doGet&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="28" column="23" severity="error" message="パラメータ request は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="51" severity="error" message="パラメータ response は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="31" severity="error" message="行が 80 文字を超えています （82 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="37" severity="error" message="行が 80 文字を超えています （119 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="37" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="37" column="5" severity="error" message="クラス &apos;Login&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;doPost&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;Login&apos; を final にするか、メソッド &apos;doPost&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="37" column="24" severity="error" message="パラメータ request は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" column="52" severity="error" message="パラメータ response は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="45" column="9" severity="error" message="&apos;if&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="45" column="49" severity="error" message="&apos;{&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="48" column="9" severity="error" message="列 9 の &apos;}&apos; はその後にあるマルチブロック文（複数のブロックを含む文: if/else-if/else, do/while, try/catch/finally）と同じ行に書いてください。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="49" severity="error" message="&apos;else&apos; 文では &apos;{}&apos; を使用しなければなりません。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/servlet/ReviewRegist.java">
+<error line="2" column="3" severity="error" message="ファイルにタブ文字が含まれています（ここが最初の出現箇所です）。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="9" column="8" severity="error" message="使用されないインポートです - java.util.ArrayList。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="10" column="8" severity="error" message="使用されないインポートです - java.util.List。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="12" column="8" severity="error" message="使用されないインポートです - javax.servlet.RequestDispatcher。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="20" severity="error" message="&apos;.*&apos; 形式のインポートの使用は避けるべきです - javax.servlet.http.*。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="35" severity="error" message="行が 80 文字を超えています （118 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="35" column="23" severity="error" message="パラメータ request は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="51" severity="error" message="パラメータ response は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" severity="error" message="行が 80 文字を超えています （119 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="40" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="40" column="5" severity="error" message="クラス &apos;ReviewRegist&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;doPost&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ReviewRegist&apos; を final にするか、メソッド &apos;doPost&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" column="24" severity="error" message="パラメータ request は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="52" severity="error" message="パラメータ response は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="44" column="9" severity="error" message="列 9 の &apos;}&apos; はその後にあるマルチブロック文（複数のブロックを含む文: if/else-if/else, do/while, try/catch/finally）と同じ行に書いてください。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="45" column="9" severity="error" message="&apos;else&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="45" column="13" severity="error" message="&apos;{&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/hkt/git/kokuguru/src/main/java/servlet/ShopRegist.java">
+<error line="2" column="3" severity="error" message="ファイルにタブ文字が含まれています（ここが最初の出現箇所です）。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" severity="error" message="&apos;.*&apos; 形式のインポートの使用は避けるべきです - javax.servlet.http.*。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="38" severity="error" message="行が 80 文字を超えています （118 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="38" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="38" column="5" severity="error" message="クラス &apos;ShopRegist&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;doGet&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopRegist&apos; を final にするか、メソッド &apos;doGet&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="23" severity="error" message="パラメータ request は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="51" severity="error" message="パラメータ response は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="9" severity="error" message="列 9 の &apos;}&apos; はその後にあるマルチブロック文（複数のブロックを含む文: if/else-if/else, do/while, try/catch/finally）と同じ行に書いてください。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="44" column="9" severity="error" message="&apos;else&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="44" column="13" severity="error" message="&apos;{&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="45" column="32" severity="error" message="&apos;=&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="45" column="32" severity="error" message="&apos;=&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="47" column="21" severity="error" message="&apos;=&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="47" column="21" severity="error" message="&apos;=&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="54" column="44" severity="error" message="&apos;,&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="55" column="46" severity="error" message="&apos;,&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="57" severity="error" message="行が 80 文字を超えています （84 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="64" severity="error" message="行が 80 文字を超えています （119 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="64" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="64" column="5" severity="error" message="クラス &apos;ShopRegist&apos; は拡張できるように設計されている（サブクラスを作れる）ようですが、メソッド &apos;doPost&apos; には安全な拡張方法を説明した Javadoc がありません。拡張できるように設計していないのであれば、クラス &apos;ShopRegist&apos; を final にするか、メソッド &apos;doPost&apos; を static/final/abstract にするか、メソッドを空にするか、Javadoc がないことを許可するアノテーションをつけることを検討してください。" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="64" column="24" severity="error" message="パラメータ request は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" column="52" severity="error" message="パラメータ response は final にしてください。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="72" column="9" severity="error" message="列 9 の &apos;}&apos; はその後にあるマルチブロック文（複数のブロックを含む文: if/else-if/else, do/while, try/catch/finally）と同じ行に書いてください。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="73" column="9" severity="error" message="&apos;else&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="73" column="13" severity="error" message="&apos;{&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="78" column="17" severity="error" message="&apos;=&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="78" column="17" severity="error" message="&apos;=&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="79" severity="error" message="行が 80 文字を超えています （166 個見つかりました）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="80" column="17" severity="error" message="&apos;=&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="80" column="17" severity="error" message="&apos;=&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>

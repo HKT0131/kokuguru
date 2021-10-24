@@ -15,6 +15,7 @@ plugins {
     id 'java'
     id 'eclipse'
     id 'war'
+    id 'checkstyle'
 }
 // これだけなぜかidで定義できない
 apply plugin: 'com.bmuschko.tomcat'
